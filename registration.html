@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset = 'UTF-8'> 
+	
+	<style> 
+		body {background-color: grey;}
+		.form { text-align: center; }
+		.register_elements { text-align: 400px; }
+		.congrats { text-size: 25px; color: white;}
+		i { color: white;}
+		#congrats { color:navy; }
+	</style>
+<head>
+
+<body background = 'tbilisi4best.jpg'>
+	<p id = 'congrats'>Hi there,<b class='congrats'> congratulations!</b> you are in our registration page. fill it in <i>two minutes</i> and enjoy <i>rest of your life!</i></p>
+
+	<table>
+		<tr>
+			<td>
+				<p class = 'form'> <br />
+<hr />
+	<button>
+	<form action = "registration.php" method="POST">
+			UserName: <input style="width:150px;" type = "text" name = "name" placeholder = " მომხმარებლის ნიკი "> <br />
+			SecondName: <input style = "width:150px;" type = "text" name = "SecondName" placeholder = " მომხმარებლის სახელი "><br />
+			Password: <input style="width:150px;" type = "password" name = "password" placeholder = " მომხმარებლის პაროლი"> <br />
+			E_Mail: <input style="width:155px;" type = "text" name = "email" placeholder = "მომხმარებლის ელფოსტა"> <br /> <p class = 'register_elements' /><br />
+	
+		<select>
+	<script >
+		document.write("<option>Month</option>");
+		for (var i = 1; i <= 31; i++) {
+			document.write(" <option>" + i + "</option> ");
+		}
+	</script>
+		</select>
+		
+		<select>
+	<script>
+		document.write("<option>Year</option>");
+		for (var i = 2014; i >= 1900; i--) {
+		document.write(" <option>" + i + "</option> ");
+		}
+	</script>
+		</select>
+	
+		<select>
+	<script>
+		document.write("<option>Day</option>");
+		for (var i = 1; i <= 31; i++) {
+		document.write(" <option>" + i + "</option> ");
+		}
+	</script>
+		</select>
+			<a href = "homepage.html">
+				<input type = "submit" name = "button" value = "SignUp">
+			</a>
+		</form>
+	</button>
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+
+
+</html>

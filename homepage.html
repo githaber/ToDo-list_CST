@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+	<title>To-Do list</title>
+	<style>
+		
+		body 
+			{
+				background-color:#d0e4fe; 
+			}
+		.welcome_users
+			{
+				color:orange; text-family:Vardana; 
+			}
+		
+		table 
+			{
+				text-align: center;
+			}
+		.signup 
+			{ 	
+				text-align: right;
+			}
+		.but 
+			{ 
+				text-decoration: none; 
+			}
+		#but
+			{ 
+				text-align: right; 
+			}
+		#wonder_list 
+			{
+				color: FFFF00;
+			}
+		#main
+			{
+				color: FFFF00;
+			}
+		#secondary
+			{
+				color: FFFF00;
+			}
+	</style>
+	
+</head>
+
+<body <!--background = 'tbilisi.jpg';-->
+
+<table style = "text-align:center;" border="1" width = "1000" height = "70">
+	<tr>
+		<td>
+			<h3 id = 'wonder_list'> Wonderlist </h3>
+		</td>
+		<td>
+			<h3 id = 'main'> main </h3>
+		</td>
+		<td>
+			<h3 id = 'secondary'> seconary </h3>
+		</td>
+	</tr>
+</table>
+
+<div style = "text-align: right;">
+
+	<p class = 'signup'> SignUp now it's take two more minutes </p>	
+	<button id = "but">
+		<a class = "but" href="SignUp.php"> SignUp</a>
+	</button>
+	
+</div>
+<h1 class="welcome_users"> Welcome to our side more bright and light </h1>
+<form action="validacia.php" method = "GET">
+UserName: <input style = 'width:200px;' type="text" name="name"> <br />
+Password: <input style = 'width:200px;' type="password" name="password"><br />
+<input type="submit" name="button" value="LogIn">
+</form>
+
+
+</body>
+</HTML>
